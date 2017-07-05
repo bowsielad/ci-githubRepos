@@ -1,0 +1,127 @@
+# Compiled source #
+
+###################
+
+*.com
+
+*.class
+
+*.dll
+
+*.exe
+
+*.so
+
+
+
+
+# Packages #
+
+############
+
+# it's better to unpack these files and commit the raw source
+
+# git has its own built in compression methods
+
+*.7z
+
+*.dmg
+
+*.gz
+
+*.iso
+
+*.jar
+
+*.rar
+
+*.tar
+
+*.zip
+
+
+
+
+# Logs and databases #
+
+######################
+
+*.log
+
+*.sql
+
+*.sqlite
+
+
+
+
+# OS generated files #
+
+######################
+
+.DS_Store
+
+.DS_Store?
+
+._*
+
+.Spotlight-V100
+
+.Trashes
+
+ehthumbs.db
+
+Thumbs.db
+
+
+######################
+
+
+# Exclude the .htaccess file
+#.htaccess
+
+# Exclude any PSD/AI source
+*.psd
+*.ai
+ 
+# Exclude the build products
+build/*
+*.[oa]
+ 
+# Exclude Text Files
+*.txt
+# Except read me
+!README.txt
+
+
+# Exclude Fonts
+_fonts/
+
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+composer.lock
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project

@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*, body {
+	border: 0;
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	line-height: 1em;
+	-webkit-font-smoothing: antialiased;
+    margin:0; padding:0;
+	font-family: 'Roboto', Arial, freesans, sans-serif!important;
+}
+html{
+
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {color:#333;font-size: 1.7em!important;font-weight: 900!important; margin:10px 0 20px 0;}
+
+h2 {color:#0067ab!important;font-size: 1.5em;margin:10px 0 10px 0;font-weight: 700!important;}
+
+h3 {color:#666;font-size: 1.2em;margin:10px 0 0 0;font-weight: 700;}
+
+h3 span{color:#0067ab;}
+
+h3 a{
+	color:#0067ab;
+	text-decoration: underline;
+}
+
+p{
+  line-height: 1.5em;
+  font-size: 0.9em;
+  font-weight: 400;
+  color:#0067ab;
+  width:75%;
+}
+
+.Wrapper{
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	height:100%;
+	/*background-color: #FDFDFD;*/
+	/*text-align: center;*/
+}
+
+.gridLeft {
+  width: 20%;
+  height:100vh;
+  background-color:lightgrey;
+  padding:20px 20px 10px 20px;
+  display:inline-block;
+  float:left;
+}
+
+.gridLeft a {
+	display:block;
+	line-height: 1.5em;
+	font-size: 1.2em;	
+	font-weight: 700;
+	color:#0067ab;
+}
+
+.gridLeft a:hover {
+	color:white;
+	text-decoration: none;
+}
+
+
+.gridLeft h1 {color:#333;font-size: 1.7em!important;font-weight: 900!important; margin:40px 0 20px 0;}
+
+.gridRight {
+  width: 80%;
+  height:100vh;
+  /*background-color: #FDFDFD;*/
+  padding:20px 20px 20px 20px;
+  display:inline-block;
+  float:left;
+}
+.gridRight a{
+ color:#333;
+}
+
+
+.gridRight h3 a{color:#0067ab!important;font-size: 1.2em;margin:10px 0 0 0;font-weight: 700!important;}
+.gridRight h3 {color:#666!important;font-size: 1.4em;margin:10px 0 0 0;font-weight: 700!important;}
+
+.gridRight h4 {color:#333;font-size:0.8em; line-height: 1.2em; margin:0;font-weight: 400!important;}
+
+
+
+.Wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#logoDiv{ 
+height:auto;  
+max-width:140px;
+width:100%;
+margin:0;
+}
+
+#logo{ 
+height:auto;  
+max-width:140px;
+width:100%;
+
+}
+
+.post_date{
+	background-color:#f4f4f4;
+	padding:4px;
+	margin:0;
+	display:block;
+	line-height: 1.4em;
+  	font-size: 0.8em;
+  	font-weight: 400;
+}
+.btn{
+	padding:0;
+	margin-right:5px;
+	display:block;
+	line-height: 1.4em;
+  	font-size: 1em;
+  	font-weight: 400;
+	max-width:160px;
+	width:100%;	
+}
+
+/*.formTitle {color:#666!important;font-size: 1.4em;margin:10px 0 10px 0;font-weight: 700!important;}*/
+
+.FormWrapper{
+	width:100%;
+	max-width:160px;
+	height:auto;
+	/*background-color: pink;*/
+}
+
+.alert{
+	width:160px;
+	height:auto;
+	/*background-color: pink;*/
+}
+
+.form-control{
+margin:0 0 5px 0;	
+	
+	
+}
+
+.messageWrapper{
+line-height: 1.4em;
+  font-size: 0.8em;
+  font-weight: 400;
+  color:#0067ab;
+  width:100%;
+	
+}
+
+
+/* Profile List */
+
+.ExampleListWrapper{
+	height:auto;
+	width:100%;
+	margin:2% 0 0 0;
+}
+
+.ExampleList {margin:0%; }
+
+.ExampleList h3 {
+  font-size: 1.4em;
+  line-height:2em;
+  font-weight: 700!important;
+  color:#666!important;
+  margin:0 0 0% 2%;
+  padding: 0% 0% 0% 0%;
+  display: inline-block;
+}
+.ExampleList svg {
+  display: inline-block;
+   vertical-align: middle;
+}
+
+#adminForm{
+	/*color:#F4C551;*/
+	/*margin-top:2px;*/
+	width:auto;
+	height:auto;
+	padding:20px 0px 0px 0px;
+	display:none;
+}
+
+#advertisingList p{color: #333;line-height:1.5em;font-weight: 400; font-size: 1em;}
+
+.rotate {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#client_logos {
+    display: inline-block;
+    width:100%;
+	margin: 0 0 6px 0;
+}
+
+
+@media screen and (max-width:769px) {
+	
+.Wrapper{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:100%;
+	background-color:pink;
+	/*text-align: center;*/
+}
+
+.gridLeft {
+  width: 100%;
+  height:100%;
+  background-color:lightgrey;
+  float: none;
+}
+.gridRight {
+  width: 100%;
+  height:100%;
+  background-color:#FDFDFD;
+  float: none;
+}
+
+p{
+  line-height: 1.4em;
+  font-size: 0.8em;
+  font-weight: 400;
+  color:#0067ab;
+  width:100%;
+}	
+	
+}
